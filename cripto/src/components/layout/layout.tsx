@@ -1,12 +1,11 @@
 import { Outlet } from "react-router-dom"
-// import { Header } from "../Header/index.tsx"
+import { Header } from "../header/index.tsx"
 
 export function Layout() {
     return(
         <>
-            <header>
-                <span>Start of racism</span>
-            </header>
+            <Header/>
+            <span>Start of racism</span>
             <Outlet/>
             <br/>
             <footer>
